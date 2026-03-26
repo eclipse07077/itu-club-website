@@ -11,7 +11,7 @@ metadata:
   title:
     default: INIT
     template: '%s — INIT'
-  description: "INIT - 컴퓨터 공학 분야의 다양한 전공을 학습하는 커뮤니티"
+  description: 'INIT - 컴퓨터 공학 분야의 다양한 전공을 학습하는 커뮤니티'
   robots:
     index: true
     follow: true

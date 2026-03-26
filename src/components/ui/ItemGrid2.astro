@@ -45,7 +45,10 @@ const {
           )}
           <div class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>{title}</div>
           {description && (
-            <p class={twMerge('text-muted mt-2 flex-grow', descriptionClass, itemClasses?.description)} set:html={description} />
+            <p
+              class={twMerge('text-muted mt-2 flex-grow', descriptionClass, itemClasses?.description)}
+              set:html={description}
+            />
           )}
           {(callToAction || callToAction2) && (
             <div class="mt-auto pt-4 flex flex-col gap-2">
