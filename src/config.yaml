@@ -1,6 +1,6 @@
 site:
   name: INIT
-  site: 'https://astrowind.vercel.app'
+  site: 'https://init.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -11,7 +11,7 @@ metadata:
   title:
     default: INIT
     template: '%s — INIT'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "INIT - 컴퓨터 공학 분야의 다양한 전공을 학습하는 커뮤니티"
   robots:
     index: true
     follow: true
