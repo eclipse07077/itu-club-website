@@ -55,9 +55,10 @@ import { UI } from 'astrowind:config';
       document.querySelector('#header > div > div:last-child')?.classList.add('hidden');
 
       if (href && href.includes('#')) {
-        e.preventDefault();
         const hash = href.split('#')[1];
-        if (hash) {
+        const isHomePage = window.location.pathname === '/' || window.location.pathname === '';
+        if (isHomePage && hash) {
+          e.preventDefault();
           setTimeout(function () {
             const target = document.getElementById(hash);
             if (target) {
